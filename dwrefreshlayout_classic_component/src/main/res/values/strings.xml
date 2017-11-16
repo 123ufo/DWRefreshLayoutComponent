@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DwRefreshLayout_Classic_component</string>
+    <string name="downText">下拉刷新</string>
+    <string name="refreshingText">正在刷新</string>
+    <string name="upText">松开刷新</string>
+    <string name="loadMoreText">上拉加载更多</string>
+</resources>

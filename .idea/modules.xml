@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DWRefreshLayoutComponent.iml" filepath="$PROJECT_DIR$/DWRefreshLayoutComponent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dwrefreshlayout_classic_component/dwrefreshlayout_classic_component.iml" filepath="$PROJECT_DIR$/dwrefreshlayout_classic_component/dwrefreshlayout_classic_component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dwrefreshlayout_component/dwrefreshlayout_component.iml" filepath="$PROJECT_DIR$/dwrefreshlayout_component/dwrefreshlayout_component.iml" />
+    </modules>
+  </component>
+</project>

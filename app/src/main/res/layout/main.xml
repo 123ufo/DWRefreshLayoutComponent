@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Key：" />
+
+        <EditText
+            android:id="@+id/etKey"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:maxLength="32"
+            android:hint="Input the key" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTip"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Source:" />
+
+        <EditText
+            android:id="@+id/etStr"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:hint="Input the source"
+            android:inputType="textMultiLine"
+            android:maxLength="4096"
+            android:maxLines="100"
+            android:scrollHorizontally="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnEncrypt"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="加密字符串" />
+
+        <Button
+            android:id="@+id/btnDecrypt"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="解密字符串" />
+        
+    </LinearLayout>
+
+</LinearLayout>
