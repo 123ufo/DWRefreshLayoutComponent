@@ -1,7 +1,8 @@
 # DWRefreshLayoutComponent
 DWRefreshLayout 常用组件
 
-#### 基于DWRefrshLayout刷新布局定义的一组经典的刷新/加载头组件.
+#### 基于[DWRefrshLayout][1]刷新布局定义的一组经典的刷新/加载头组件.
+ [1]: https://github.com/123ufo/DWRefreshLayout
 
 <img src="https://github.com/123ufo/DWRefreshLayoutComponent/blob/master/gif/a.gif?raw=true" width="280"/>
 
