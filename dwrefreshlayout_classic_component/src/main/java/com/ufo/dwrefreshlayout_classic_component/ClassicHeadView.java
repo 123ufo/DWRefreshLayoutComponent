@@ -98,7 +98,7 @@ public class ClassicHeadView extends LinearLayout implements IRefreshHead {
      *
      * @param color
      */
-    public void setRefreshTestColor(@ColorRes int color) {
+    public void setRefreshTextColor(@ColorRes int color) {
         mTvText.setTextColor(getResources().getColor(color));
     }
 

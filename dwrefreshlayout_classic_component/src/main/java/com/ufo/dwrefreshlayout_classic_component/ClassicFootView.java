@@ -95,7 +95,7 @@ public class ClassicFootView extends LinearLayout implements ILoadMoreFoot {
      *
      * @param color
      */
-    public void setRefreshTestColor(@ColorRes int color) {
+    public void setRefreshTextColor(@ColorRes int color) {
         mTvText.setTextColor(getResources().getColor(color));
     }
 
