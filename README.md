@@ -27,24 +27,12 @@ DWRefreshLayout 常用组件
         refreshLayout.setOnRefreshListener(new DWRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                mHandler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        refreshLayout.setRefresh(false);
 
-                    }
-                }, 1000);
             }
 
             @Override
             public void onLoadMore() {
-                mHandler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        refreshLayout.setRefresh(false);
 
-                    }
-                }, 1000);
             }
         });
 
