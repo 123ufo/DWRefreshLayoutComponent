@@ -8,7 +8,7 @@ DWRefreshLayout 常用组件
 
 ### Gradle compile dependency:
 
-    compile 'com.ufo:dwrefreshlayout_classic_component:0.9.0'
+    compile 'com.ufo:dwrefreshlayout_classic_component:0.9.1'
 
 ### 代码：
 
