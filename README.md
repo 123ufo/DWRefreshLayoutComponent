@@ -16,12 +16,12 @@ DWRefreshLayout 常用组件
 
         ClassicHeadView classicHeadView = new ClassicHeadView(this);
         //设置文本的颜色
-        classicHeadView.setRefreshTestColor(R.color.colorAccent);
+        classicHeadView.setRefreshTextColor(R.color.colorAccent);
         refreshLayout.setHeadView(classicHeadView);
 
         ClassicFootView classicFootView = new ClassicFootView(this);
           //设置文本的颜色
-        classicFootView.setRefreshTestColor(R.color.colorAccent);
+        classicFootView.setRefreshTextColor(R.color.colorAccent);
         refreshLayout.setFootView(classicFootView);
 
         refreshLayout.setOnRefreshListener(new DWRefreshLayout.OnRefreshListener() {
